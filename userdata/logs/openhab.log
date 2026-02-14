@@ -1,0 +1,29 @@
+2026-02-14 18:45:51.208 [INFO ] [org.openhab.core.Activator          ] - Starting openHAB 5.1.2 (Release Build)
+2026-02-14 18:45:51.784 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Atlantic/Cape_Verde'.
+2026-02-14 18:45:51.785 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'uk_NO'.
+2026-02-14 18:45:52.019 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/events's Observer 
+2026-02-14 18:45:54.937 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/events's Observer 
+2026-02-14 18:46:00.201 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading DSL model 'semantic_search.items'
+2026-02-14 18:46:01.021 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading DSL model 'semantic.sitemap'
+2026-02-14 18:46:05.261 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2026-02-14 18:46:18.458 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2026-02-14 18:46:18.889 [INFO ] [ort.loader.AbstractScriptFileWatcher] - (Re-)Loading script '/openhab/conf/automation/js/semantic_search.js'
+2026-02-14 18:46:19.205 [INFO ] [omation.jsscripting.openhab-js.rules] - Adding rule: Semantic Search Logic
+2026-02-14 18:46:30.916 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> actuator
+2026-02-14 18:46:30.948 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Ventilation Fan
+2026-02-14 18:46:32.786 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> fan
+2026-02-14 18:46:32.797 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Ventilation Fan
+2026-02-14 18:46:34.879 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> humidity
+2026-02-14 18:46:34.889 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Air Humidity
+2026-02-14 18:46:37.252 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> temperature
+2026-02-14 18:46:37.266 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Air Temperature
+2026-02-14 19:25:12.266 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> humidity
+2026-02-14 19:25:12.279 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Air Humidity
+2026-02-14 19:25:15.150 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> fan
+2026-02-14 19:25:15.161 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Ventilation Fan
+2026-02-14 19:25:17.690 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> actuator
+2026-02-14 19:25:17.705 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Ventilation Fan
+2026-02-14 19:25:57.816 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> humidity
+2026-02-14 19:25:57.823 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Air Humidity
+2026-02-14 19:25:59.912 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Searching for -> fan
+2026-02-14 19:25:59.939 [INFO ] [.jsscripting.file.semantic_search.js] - Semantic Search: Found: Ventilation Fan
