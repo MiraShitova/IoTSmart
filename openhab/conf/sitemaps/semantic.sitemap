@@ -1,0 +1,15 @@
+sitemap semantic label="Semantic IoT Search" {
+    Frame label="Semantic Query Builder" {
+        Selection item=Search_Query mappings=[
+            "temperature"="Search: Temperature Sensors",
+            "humidity"="Search: Humidity Sensors",
+            "actuator"="Search: All Actuators",
+            "fan"="Search: Ventilation"
+        ]
+        Text item=Search_Results label="Results [%s]" icon="search"
+    }
+    
+    Frame label="Device Ontology Browser" {
+        Group item=gGreenhouse label="Explore Greenhouse (SSN/SOSA Model)"
+    }
+}

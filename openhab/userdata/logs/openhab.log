@@ -1,0 +1,7 @@
+2026-02-14 15:31:49.104 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/events's Observer 
+2026-02-14 15:31:56.575 [INFO ] [org.openhab.core.Activator          ] - Starting openHAB 5.1.2 (Release Build)
+2026-02-14 15:32:12.718 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2026-02-14 15:32:17.306 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2026-02-14 15:34:33.343 [WARN ] [.io.rest.auth.internal.TokenResource] - Couldn't find a user with a session matching the provided refresh_token
+2026-02-14 15:34:33.347 [WARN ] [.io.rest.auth.internal.TokenResource] - Token issuing failed: invalid_grant
+2026-02-14 15:35:08.788 [INFO ] [p.auth.internal.AuthorizePageServlet] - First user account created: Mira

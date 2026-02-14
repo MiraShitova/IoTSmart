@@ -1,0 +1,30 @@
+{
+  "generate_wot_td": {
+    "class": "org.openhab.core.automation.dto.RuleDTO",
+    "value": {
+      "triggers": [],
+      "conditions": [],
+      "actions": [
+        {
+          "inputs": {},
+          "id": "script",
+          "configuration": {
+            "script": "\nvar item \u003d items.getItem(\"SmartLamp_LivingRoom\");\n\n\nvar td \u003d {\n  \"@context\": \"https://www.w3.org/2019/wot/td/v1\",\n  \"id\": \"urn:openhab:item:\" + item.name,\n  \"title\": item.label,\n  \"@type\": \"saref:LightSwitch\",\n  \"securityDefinitions\": {\n    \"nosec_sc\": { \"scheme\": \"nosec\" }\n  },\n  \"security\": \"nosec_sc\",\n  \"properties\": {\n    \"status\": {\n      \"title\": \"Current Status\",\n      \"type\": \"string\",\n      \"readOnly\": true,\n      \"forms\": [{\n        \"href\": \"http://localhost:8080/rest/items/\" + item.name + \"/state\",\n        \"contentType\": \"application/json\"\n      }]\n    }\n  }\n};\nconsole.log(JSON.stringify(td, null, 2));\n",
+            "type": "application/javascript"
+          },
+          "type": "script.ScriptAction"
+        }
+      ],
+      "configuration": {},
+      "configDescriptions": [],
+      "templateState": "no-template",
+      "uid": "generate_wot_td",
+      "name": "WoT Thing Description Generator",
+      "tags": [
+        "Script"
+      ],
+      "visibility": "VISIBLE",
+      "description": ""
+    }
+  }
+}

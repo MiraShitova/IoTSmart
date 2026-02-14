@@ -1,0 +1,10 @@
+// Group
+Group gGreenhouse "Smart Greenhouse" ["Greenhouse"]
+
+// Sensors
+Number Greenhouse_Temp "Air Temperature [%.1f °C]" <temperature> (gGreenhouse) ["Measurement", "Temperature"] { ssn_sosa="Sensor", property="Temperature" }
+Number Greenhouse_Hum "Air Humidity [%.1f %%]" <humidity> (gGreenhouse) ["Measurement", "Humidity"] { ssn_sosa="Sensor", property="Humidity" }
+Switch Greenhouse_Vent "Ventilation Fan" <fan> (gGreenhouse) ["Actuator", "Equipment"] { ssn_sosa="Ventilation Fan Actuator", property="AirFlow" }
+// Search Items
+String Search_Query "Search IoT Capabilities"
+String Search_Results "Found Devices"

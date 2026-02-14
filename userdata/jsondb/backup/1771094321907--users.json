@@ -1,0 +1,96 @@
+{
+  "Mira": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "Mira",
+      "passwordHash": "7Af6yuwZFLktMIgoRfgEySO/3JnERXZGd1KQi9b3lAvCIQRUhWFFpFWwQBXlmIX3Epy8QCFaQd3ngaGq5vD3/A\u003d\u003d",
+      "passwordSalt": "SD1KupLTqGHIYDNmD/fl2bUWd5htTIM2XEojXW/YPsvT/qjJYAJxWrhI+IuWigRGZgL0iTLaoEhiQEa5pePnrA\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "sessions": [
+        {
+          "sessionId": "048e35a4-3d2f-4d2f-b509-029b7bb457cd",
+          "refreshToken": "2915f98ed6c24d878b5ffc1cd9714e45",
+          "createdTime": "Feb 11, 2026, 1:10:34 PM",
+          "lastRefreshTime": "Feb 11, 2026, 1:51:58 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "4724da50-595e-4d51-ba96-6d3de55e1493",
+          "refreshToken": "5f322dd0d36d420fbb188936ab7ad62c",
+          "createdTime": "Feb 14, 2026, 3:23:03 PM",
+          "lastRefreshTime": "Feb 14, 2026, 3:23:03 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "49e872de-15a6-4210-9dc0-db26f4f52fde",
+          "refreshToken": "b06f0a1359be42eaa913ffbeaf1e55f3",
+          "createdTime": "Feb 14, 2026, 3:41:45 PM",
+          "lastRefreshTime": "Feb 14, 2026, 3:48:28 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "bdfd06af-2e10-449a-8d59-f8f2c35db6a2",
+          "refreshToken": "a0f4d8ddb34848c2a52d03a2d1b5f3c7",
+          "createdTime": "Feb 14, 2026, 3:51:19 PM",
+          "lastRefreshTime": "Feb 14, 2026, 3:51:19 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "ecfbbfbd-c065-40a4-81ad-e3942928f64a",
+          "refreshToken": "1add413b05384c47b931c36883af65f1",
+          "createdTime": "Feb 14, 2026, 3:58:38 PM",
+          "lastRefreshTime": "Feb 14, 2026, 4:01:59 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "8bd56082-6246-40c2-8ad7-17ee5407a8ea",
+          "refreshToken": "c7e9cd07f0a64374a6a88d3c6abce6d8",
+          "createdTime": "Feb 14, 2026, 4:04:08 PM",
+          "lastRefreshTime": "Feb 14, 2026, 5:02:47 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "eccbfa45-b69c-4755-8182-e885f9172863",
+          "refreshToken": "d413904e05ce485895b503d50a496e29",
+          "createdTime": "Feb 14, 2026, 5:06:14 PM",
+          "lastRefreshTime": "Feb 14, 2026, 6:32:30 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "da36ef58-d897-4f9e-9131-b1ef19e5ff65",
+          "refreshToken": "0d11c8d75a2b4fff90b94d7fee51cc3b",
+          "createdTime": "Feb 14, 2026, 6:38:41 PM",
+          "lastRefreshTime": "Feb 14, 2026, 6:38:41 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": []
+    }
+  }
+}

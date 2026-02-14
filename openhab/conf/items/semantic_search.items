@@ -1,0 +1,19 @@
+// Group definitions
+Group gGreenhouse "Smart Greenhouse" ["Greenhouse"]
+
+// Sensors with SSN/SOSA annotations in metadata
+Number:Temperature Greenhouse_Temp "Air Temperature" <temperature> (gGreenhouse) ["Measurement", "Temperature"] {
+    ssn_sosa="{'type': 'Sensor', 'property': 'Temperature', 'procedure': 'Thermistor-Reading'}"
+}
+
+Number:Humidity Greenhouse_Hum "Air Humidity" <humidity> (gGreenhouse) ["Measurement", "Humidity"] {
+    ssn_sosa="{'type': 'Sensor', 'property': 'Humidity', 'procedure': 'Capacitive-Sensing'}"
+}
+
+Switch Greenhouse_Vent "Ventilation Fan" <fan> (gGreenhouse) ["Actuator", "Equipment"] {
+    ssn_sosa="{'type': 'Actuator', 'property': 'AirFlow', 'action': 'Toggle'}"
+}
+
+// Item for Search UI
+String Search_Query "Search IoT Capabilities"
+String Search_Results "Found Devices"

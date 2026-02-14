@@ -1,0 +1,12 @@
+{
+  "SmartLamp_LivingRoom": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [],
+      "label": "Living Room Smart Lamp",
+      "category": "lightbulb"
+    }
+  }
+}

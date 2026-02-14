@@ -1,0 +1,26 @@
+{
+  "Mira": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "Mira",
+      "passwordHash": "xAHhBDAtiiL2+h8B47kSvSbN4SfcR8AzUOYfaNPssVBcUc8E/hwVGmrgg9B95V4NNMYghB4zuhDvJ55NPb21ww\u003d\u003d",
+      "passwordSalt": "XsdcI6/qD3u2Mo9t//Emcr5cGtPUvU+uVYGaGJE9/nSyThfJm5lrzu/yce8UFR1URn+UJjv6OXdUSmylZ6vAMw\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "sessions": [
+        {
+          "sessionId": "0cc5386e-003f-4d52-a289-2a18bdd5f802",
+          "refreshToken": "af95c4e48c7b47f1a79cd07d9e7e0c9d",
+          "createdTime": "Feb 14, 2026, 3:35:09 PM",
+          "lastRefreshTime": "Feb 14, 2026, 3:35:50 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": []
+    }
+  }
+}

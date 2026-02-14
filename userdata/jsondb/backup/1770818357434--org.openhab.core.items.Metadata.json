@@ -1,0 +1,16 @@
+{
+  "wot:SmartLamp_LivingRoom": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "wot",
+          "SmartLamp_LivingRoom"
+        ],
+        "uid": "wot:SmartLamp_LivingRoom"
+      },
+      "value": " ",
+      "configuration": {}
+    }
+  }
+}
